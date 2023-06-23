@@ -1,0 +1,27 @@
+.onlineLessonPage-main {
+
+    .onlineLessonPage {
+        .search-lesson {
+            padding: 15px 0;
+    
+            input{
+                margin-right: 10px;
+            }
+            button{
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        .onlineLessonPage-actions{
+            padding: 10px 0 0 0 ;
+            padding-right: 10px;
+            text-align: right;
+        }
+    
+        hr.onlineLessonPage-actions-divider {
+            margin: 7px;
+        }
+    }
+    
+}

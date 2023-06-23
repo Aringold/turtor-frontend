@@ -1,0 +1,28 @@
+.list{
+    .scroll-container{
+        max-height: 800px;
+
+        .list-group-item{
+            .item{
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(1.02);
+                }
+                .course-list-img-text {
+                    display: flex;
+                    .course-list-img{
+                        img.user-avatar {
+                            border-radius: 50%;
+                            width: 75px;
+                        }
+                    }
+                    
+                    .list-text{
+                        padding-left: 15px;
+                        margin: auto auto auto 0;
+                    }
+                }
+            }
+        }
+    }
+}

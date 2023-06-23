@@ -1,0 +1,61 @@
+.TutorPages{
+
+    .tutorPages-main{
+        background-color: #4f606421;
+        padding: 25px 25px;
+        background: -webkit-linear-gradient(left, #1c595a, #7db8cc);
+    
+        .search-lesson {
+            padding: 15px 0;
+    
+            input{
+                margin-right: 10px;
+            }
+            button{
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        @media screen and (max-width: 1100px) {
+            .tutor-sidebar{
+                display: none;
+                position: absolute;
+            }
+            .tutor-sidecontrol-button {
+                display: block;
+            }
+        }
+        .tutor-sidecontrol-button{
+            display: none;
+        }
+
+        .Tutorpages-container{
+            display: flex;
+
+            .tutor-sidebar {
+                width: 100%;
+                max-width: 200px;
+                min-height: 500px;
+                height: 100%;
+                margin-top: 61px;
+                
+                
+                .sticky{
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 100px;
+                }
+            }
+    
+            >.pages {
+                background-color: white;
+                width: 100%;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-right: 30px;
+            }
+        }
+    }
+}

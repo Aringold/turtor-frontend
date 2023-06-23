@@ -1,0 +1,9 @@
+.login-forgot-password {
+    background-color: #1cc4c7;
+    height: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin-bottom: 20px; }
+    .login-forgot-password a {
+      padding: 0; }
